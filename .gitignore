@@ -1,0 +1,7 @@
+# Cache directories
+__pycache__/
+node_modules/
+.cache/
+
+# VS code settings
+.vscode/
