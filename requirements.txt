@@ -1,97 +1,128 @@
-aiohttp==3.8.4
-aiosignal==1.3.1
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
-async-generator==1.10
-async-timeout==4.0.2
-attrs==23.1.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-bitarray==2.7.3
-Bottleneck @ file:///work/ci_py311/bottleneck_1676827011612/work
-brotlipy==0.7.0
-certifi @ file:///work/ci_py311/certifi_1676822443922/work/certifi
-cffi @ file:///work/ci_py311/cffi_1676822533496/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-chromedriver-binary==114.0.5735.16.0
-comm @ file:///work/ci_py311/comm_1677709131612/work
-cryptography @ file:///work/ci_py311_2/cryptography_1679335572456/work
-cytoolz==0.12.1
-debugpy @ file:///work/ci_py311/debugpy_1676824903649/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-docopt==0.6.2
-et-xmlfile==1.1.0
-eth-abi==4.0.0
-eth-account==0.8.0
-eth-hash==0.5.1
-eth-keyfile==0.6.1
-eth-keys==0.4.0
-eth-rlp==0.3.0
-eth-typing==3.3.0
-eth-utils==2.1.0
-exceptiongroup==1.1.1
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-frozenlist==1.3.3
-h11==0.14.0
-hexbytes==0.3.0
-idna @ file:///work/ci_py311/idna_1676822698822/work
-ipykernel @ file:///work/ci_py311/ipykernel_1677867938687/work
-ipython @ file:///croot/ipython_1680701871216/work
-jedi @ file:///work/ci_py311_2/jedi_1679336495545/work
-jsonschema==4.17.3
-jupyter_client @ file:///croot/jupyter_client_1680171862562/work
-jupyter_core @ file:///croot/jupyter_core_1679906564508/work
-lru-dict==1.1.8
-matplotlib-inline @ file:///work/ci_py311/matplotlib-inline_1676823841154/work
-mkl-fft==1.3.1
-mkl-random @ file:///work/ci_py311/mkl_random_1676828032909/work
-mkl-service==2.4.0
-multidict==6.0.4
-nest-asyncio @ file:///work/ci_py311/nest-asyncio_1676823382924/work
-numexpr @ file:///work/ci_py311_2/numexpr_1679336657660/work
-numpy @ file:///croot/numpy_and_numpy_base_1682520569166/work
-openpyxl==3.1.2
-outcome==1.2.0
-packaging @ file:///croot/packaging_1678965309396/work
-pandas==1.5.3
-parsimonious==0.9.0
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-pipreqs==0.4.13
-platformdirs @ file:///work/ci_py311/platformdirs_1676823055788/work
-prompt-toolkit @ file:///work/ci_py311/prompt-toolkit_1676824857154/work
-protobuf==4.22.3
-psutil @ file:///work/ci_py311_2/psutil_1679337388738/work
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pycryptodome==3.17
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyOpenSSL @ file:///croot/pyopenssl_1678965284384/work
-pyrsistent==0.19.3
-PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-dotenv==1.0.0
-pytz @ file:///work/ci_py311/pytz_1676825004346/work
-pyzmq @ file:///work/ci_py311/pyzmq_1676918885689/work
-regex==2023.3.23
-requests @ file:///croot/requests_1682607517574/work
-rlp==3.0.0
-selenium==4.9.1
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-sniffio==1.3.0
-sortedcontainers==2.4.0
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
-toolz==0.12.0
-tornado @ file:///work/ci_py311/tornado_1676823418767/work
-tqdm==4.65.0
-traitlets @ file:///work/ci_py311/traitlets_1676823305040/work
-trio==0.22.0
-trio-websocket==0.10.2
-urllib3 @ file:///croot/urllib3_1680254681959/work
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-web3==6.2.0
-webdriver-manager==3.8.6
-websockets==11.0.2
-wsproto==1.2.0
-yarg==0.1.9
-yarl==1.9.2
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+_libgcc_mutex=0.1=main
+_openmp_mutex=5.1=1_gnu
+aiohttp=3.8.4=pypi_0
+aiosignal=1.3.1=pypi_0
+asttokens=2.0.5=pyhd3eb1b0_0
+async-generator=1.10=pypi_0
+async-timeout=4.0.2=pypi_0
+attrs=23.1.0=pypi_0
+backcall=0.2.0=pyhd3eb1b0_0
+bitarray=2.7.3=pypi_0
+blas=1.0=mkl
+bottleneck=1.3.5=py311hbed6279_0
+brotlipy=0.7.0=py311h5eee18b_1002
+bzip2=1.0.8=h7b6447c_0
+ca-certificates=2023.01.10=h06a4308_0
+certifi=2022.12.7=py311h06a4308_0
+cffi=1.15.1=py311h5eee18b_3
+charset-normalizer=2.0.4=pyhd3eb1b0_0
+chromedriver-binary=114.0.5735.16.0=pypi_0
+comm=0.1.2=py311h06a4308_0
+cryptography=39.0.1=py311h9ce1e76_0
+cytoolz=0.12.1=pypi_0
+debugpy=1.5.1=py311h6a678d5_0
+decorator=5.1.1=pyhd3eb1b0_0
+docopt=0.6.2=pypi_0
+et-xmlfile=1.1.0=pypi_0
+eth-abi=4.0.0=pypi_0
+eth-account=0.8.0=pypi_0
+eth-hash=0.5.1=pypi_0
+eth-keyfile=0.6.1=pypi_0
+eth-keys=0.4.0=pypi_0
+eth-rlp=0.3.0=pypi_0
+eth-typing=3.3.0=pypi_0
+eth-utils=2.1.0=pypi_0
+exceptiongroup=1.1.1=pypi_0
+executing=0.8.3=pyhd3eb1b0_0
+frozenlist=1.3.3=pypi_0
+h11=0.14.0=pypi_0
+hexbytes=0.3.0=pypi_0
+idna=3.4=py311h06a4308_0
+intel-openmp=2021.4.0=h06a4308_3561
+ipykernel=6.19.2=py311h6410fe4_0
+ipython=8.12.0=py311h06a4308_0
+jedi=0.18.1=py311h06a4308_1
+jsonschema=4.17.3=pypi_0
+jupyter_client=8.1.0=py311h06a4308_0
+jupyter_core=5.3.0=py311h06a4308_0
+ld_impl_linux-64=2.38=h1181459_1
+libffi=3.4.2=h6a678d5_6
+libgcc-ng=11.2.0=h1234567_1
+libgomp=11.2.0=h1234567_1
+libsodium=1.0.18=h7b6447c_0
+libstdcxx-ng=11.2.0=h1234567_1
+libuuid=1.41.5=h5eee18b_0
+lru-dict=1.1.8=pypi_0
+matplotlib-inline=0.1.6=py311h06a4308_0
+mkl=2021.4.0=h06a4308_640
+mkl-service=2.4.0=py311h5eee18b_0
+mkl_fft=1.3.1=py311h30b3d60_0
+mkl_random=1.2.2=py311hba01205_0
+multidict=6.0.4=pypi_0
+ncurses=6.4=h6a678d5_0
+nest-asyncio=1.5.6=py311h06a4308_0
+numexpr=2.8.4=py311h802d673_0
+numpy=1.24.3=py311hc206e33_0
+numpy-base=1.24.3=py311hfd5febd_0
+openpyxl=3.1.2=pypi_0
+openssl=1.1.1t=h7f8727e_0
+outcome=1.2.0=pypi_0
+packaging=23.0=py311h06a4308_0
+pandas=1.5.3=py311hba01205_0
+parsimonious=0.9.0=pypi_0
+parso=0.8.3=pyhd3eb1b0_0
+pexpect=4.8.0=pyhd3eb1b0_3
+pickleshare=0.7.5=pyhd3eb1b0_1003
+pip=23.0.1=py311h06a4308_0
+pipreqs=0.4.13=pypi_0
+platformdirs=2.5.2=py311h06a4308_0
+prompt-toolkit=3.0.36=py311h06a4308_0
+protobuf=4.22.3=pypi_0
+psutil=5.9.0=py311h5eee18b_0
+ptyprocess=0.7.0=pyhd3eb1b0_2
+pure_eval=0.2.2=pyhd3eb1b0_0
+pycparser=2.21=pyhd3eb1b0_0
+pycryptodome=3.17=pypi_0
+pygments=2.11.2=pyhd3eb1b0_0
+pyopenssl=23.0.0=py311h06a4308_0
+pyrsistent=0.19.3=pypi_0
+pysocks=1.7.1=py311h06a4308_0
+python=3.11.3=h7a1cb2a_0
+python-dateutil=2.8.2=pyhd3eb1b0_0
+python-dotenv=1.0.0=pypi_0
+pytz=2022.7=py311h06a4308_0
+pyzmq=23.2.0=py311h6a678d5_0
+readline=8.2=h5eee18b_0
+regex=2023.3.23=pypi_0
+requests=2.29.0=py311h06a4308_0
+rlp=3.0.0=pypi_0
+selenium=4.9.1=pypi_0
+setuptools=66.0.0=py311h06a4308_0
+six=1.16.0=pyhd3eb1b0_1
+sniffio=1.3.0=pypi_0
+sortedcontainers=2.4.0=pypi_0
+sqlite=3.41.2=h5eee18b_0
+stack_data=0.2.0=pyhd3eb1b0_0
+tk=8.6.12=h1ccaba5_0
+toolz=0.12.0=pypi_0
+tornado=6.2=py311h5eee18b_0
+tqdm=4.65.0=pypi_0
+traitlets=5.7.1=py311h06a4308_0
+trio=0.22.0=pypi_0
+trio-websocket=0.10.2=pypi_0
+tzdata=2023c=h04d1e81_0
+urllib3=1.26.15=py311h06a4308_0
+wcwidth=0.2.5=pyhd3eb1b0_0
+web3=6.2.0=pypi_0
+webdriver-manager=3.8.6=pypi_0
+websockets=11.0.2=pypi_0
+wheel=0.38.4=py311h06a4308_0
+wsproto=1.2.0=pypi_0
+xz=5.2.10=h5eee18b_1
+yarg=0.1.9=pypi_0
+yarl=1.9.2=pypi_0
+zeromq=4.3.4=h2531618_0
+zlib=1.2.13=h5eee18b_0
